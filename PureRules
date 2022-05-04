@@ -7,27 +7,27 @@ dns-server = 223.5.5.5, 1.0.0.1
 update-url = 
 
 [Proxy Group]
-  - { name: "$app_name", type: select, proxies: [] }
-  - { name: "🍎 Apple", type: select, proxies: ["SELECT", "$app_name"] }
-  - { name: "🎬 Emby", type: select, proxies: ["$app_name", "SELECT"] }
-  - { name: "📲 Telegram", type: select, proxies: ["$app_name", "SELECT"] }
-  - { name: "🎬 YouTube", type: select, proxies: ["$app_name", "SELECT"] }
-  - { name: "🎬 Bilibili", type: select, proxies: ["SELECT", "$app_name"] }
-  - { name: "🎬 myTVSUPER", type: select, proxies: ["$app_name", "SELECT"] }
-  - { name: "📲 LineTV", type: select, proxies: ["$app_name", "SELECT"] }
-  - { name: "🎬 iQiyi", type: select, proxies: ["SELECT", "$app_name"] }
-  - { name: "🎵 Tiktok", type: select, proxies: ["$app_name", "SELECT"] }
-  - { name: "📺 Disney", type: select, proxies: ["$app_name", "SELECT"] }
-  - { name: "📺 Netflix", type: select, proxies: ["$app_name", "SELECT"] }
-  - { name: "🌐 Google", type: select, proxies: ["$app_name", "SELECT"] }
-  - { name: "🖥 Microsoft", type: select, proxies: ["$app_name", "SELECT"] }
-  - { name: "🖥 Learning", type: select, proxies: ["$app_name", "SELECT"] }
-  - { name: "📟 Twitter", type: select, proxies: ["$app_name", "SELECT"] }
-  - { name: "📺 International-Media", type: select, proxies: ["$app_name", "SELECT"] }
-  - { name: "China-Media", type: select, proxies: ["SELECT", "$app_name"] }
+  - { name: "PureCloud", type: select, proxies: [] }
+  - { name: "🍎 Apple", type: select, proxies: ["SELECT", "PureCloud"] }
+  - { name: "🎬 Emby", type: select, proxies: ["PureCloud", "SELECT"] }
+  - { name: "📲 Telegram", type: select, proxies: ["PureCloud", "SELECT"] }
+  - { name: "🎬 YouTube", type: select, proxies: ["PureCloud", "SELECT"] }
+  - { name: "🎬 Bilibili", type: select, proxies: ["SELECT", "PureCloud"] }
+  - { name: "🎬 myTVSUPER", type: select, proxies: ["PureCloud", "SELECT"] }
+  - { name: "📲 LineTV", type: select, proxies: ["PureCloud", "SELECT"] }
+  - { name: "🎬 iQiyi", type: select, proxies: ["SELECT", "PureCloud"] }
+  - { name: "🎵 Tiktok", type: select, proxies: ["PureCloud", "SELECT"] }
+  - { name: "📺 Disney", type: select, proxies: ["PureCloud", "SELECT"] }
+  - { name: "📺 Netflix", type: select, proxies: ["PureCloud", "SELECT"] }
+  - { name: "🌐 Google", type: select, proxies: ["PureCloud", "SELECT"] }
+  - { name: "🖥 Microsoft", type: select, proxies: ["PureCloud", "SELECT"] }
+  - { name: "🖥 Learning", type: select, proxies: ["PureCloud", "SELECT"] }
+  - { name: "📟 Twitter", type: select, proxies: ["PureCloud", "SELECT"] }
+  - { name: "📺 International-Media", type: select, proxies: ["PureCloud", "SELECT"] }
+  - { name: "China-Media", type: select, proxies: ["SELECT", "PureCloud"] }
   - { name: "Hijacking", type: select, proxies: ["REJECT", "SELECT"] }
-  - { name: "China-Websites", type: select, proxies: ["SELECT", "$app_name"] }
-  - { name: "Final", type: select, proxies: ["$app_name", "SELECT"] }
+  - { name: "China-Websites", type: select, proxies: ["SELECT", "PureCloud"] }
+  - { name: "Final", type: select, proxies: ["PureCloud", "SELECT"] }
 
 [Rule]
 DOMAIN-SUFFIX,v.puretext.xyz,🎬 EMBY
