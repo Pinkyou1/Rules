@@ -1,10 +1,11 @@
+# Shadowrocket: 2022-05-04 下午5:12:49
 [General]
 yaml = true
 bypass-system = true
 skip-proxy = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, localhost, *.local, captive.apple.com
 tun-excluded-routes = 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12, 192.0.0.0/24, 192.0.2.0/24, 192.88.99.0/24, 192.168.0.0/16, 198.51.100.0/24, 203.0.113.0/24, 224.0.0.0/4, 255.255.255.255/32, 239.255.255.250/32
 dns-server = 223.5.5.5, 1.0.0.1
-update-url = 
+update-url = https://naixisubs.com/downloadConfig/Clash.aspx?eq=windows&urk=edd35cde-81f5-4f91-b8c3-6bb582de614c
 
 [Proxy Group]
   - { name: "$app_name", type: select, proxies: [] }
@@ -28,8 +29,9 @@ update-url =
   - { name: "Hijacking", type: select, proxies: ["REJECT", "DIRECT"] }
   - { name: "China-Websites", type: select, proxies: ["DIRECT", "$app_name"] }
   - { name: "Final", type: select, proxies: ["$app_name", "DIRECT"] }
-  
+
 [Rule]
+DOMAIN-SUFFIX,v.puretext.xyz,🎬 EMBY
 DOMAIN-SUFFIX,ap.spotify.com,DIRECT
 DOMAIN-KEYWORD,epochtimes,REJECT
 DOMAIN-SUFFIX,881903.com,REJECT
@@ -105,9 +107,10 @@ IP-CIDR,91.108.16.0/22,📲 TELEGRAM
 IP-CIDR,91.108.20.0/22,📲 TELEGRAM
 IP-CIDR,91.108.56.0/22,📲 TELEGRAM
 IP-CIDR,149.154.160.0/20,📲 TELEGRAM
+DOMAIN-SUFFIX,flightpacific.net,FINAL
+DOMAIN-SUFFIX,v.puretext.xyz,FINAL
 DOMAIN-SUFFIX,amysecure.com,FINAL
 DOMAIN-SUFFIX,amytele.com,FINAL
-DOMAIN-SUFFIX,v.puretext.xyz,🎬 EMBY
 DOMAIN-SUFFIX,acg.tv,🎬 BILIBILI
 DOMAIN-SUFFIX,acgvideo.com,🎬 BILIBILI
 DOMAIN-SUFFIX,b23.tv,🎬 BILIBILI
@@ -1636,9 +1639,7 @@ DOMAIN-SUFFIX,wn.com,FINAL
 DOMAIN-SUFFIX,wolframalpha.com,FINAL
 DOMAIN-SUFFIX,x-art.com,FINAL
 DOMAIN-SUFFIX,yimg.com,FINAL
-DOMAIN-SUFFIX,flightpacific.net,FINAL
-DOMAIN-SUFFIX,v.puretext.xyz,FINAL
-DOMAIN-SUFFIX,account.purecloudserver.com,Final
+DOMAIN-SUFFIX,linkedin.com,Final
 GEOIP,CN,CHINA-WEBSITES
 FINAL,FINAL
 
