@@ -8,26 +8,26 @@ update-url =
 
 proxy-groups:
 PureCloud = select, $proxy_group
-  - { name: "🍎 Apple", type: select, proxies: ["DIRECT", "$app_name"] }
-  - { name: "🎬 Emby", type: select, proxies: ["$app_name", "DIRECT"] }
-  - { name: "📲 Telegram", type: select, proxies: ["$app_name", "DIRECT"] }
-  - { name: "🎬 YouTube", type: select, proxies: ["$app_name", "DIRECT"] }
-  - { name: "🎬 Bilibili", type: select, proxies: ["DIRECT", "$app_name"] }
-  - { name: "🎬 myTVSUPER", type: select, proxies: ["$app_name", "DIRECT"] }
-  - { name: "📲 LineTV", type: select, proxies: ["$app_name", "DIRECT"] }
-  - { name: "🎬 iQiyi", type: select, proxies: ["DIRECT", "$app_name"] }
-  - { name: "🎵 Tiktok", type: select, proxies: ["$app_name", "DIRECT"] }
-  - { name: "📺 Disney", type: select, proxies: ["$app_name", "DIRECT"] }
-  - { name: "📺 Netflix", type: select, proxies: ["$app_name", "DIRECT"] }
-  - { name: "🌐 Google", type: select, proxies: ["$app_name", "DIRECT"] }
-  - { name: "🖥 Microsoft", type: select, proxies: ["$app_name", "DIRECT"] }
-  - { name: "🖥 Learning", type: select, proxies: ["$app_name", "DIRECT"] }
-  - { name: "📟 Twitter", type: select, proxies: ["$app_name", "DIRECT"] }
-  - { name: "📺 International-Media", type: select, proxies: ["$app_name", "DIRECT"] }
-  - { name: "China-Media", type: select, proxies: ["DIRECT", "$app_name"] }
-  - { name: "Hijacking", type: select, proxies: ["REJECT", "DIRECT"] }
-  - { name: "China-Websites", type: select, proxies: ["DIRECT", "$app_name"] }
-  - { name: "Final", type: select, proxies: ["$app_name", "DIRECT"] }
+Domestic = select, Direct, PureCloud
+🍎 Apple = select, Direct, PureCloud, $proxy_group
+📺 Emby = select, PureCloud, Direct, $proxy_group
+🎵 Tiktok = select, Direct, PureCloud, $proxy_group
+🎵 YouTube Music= select, PureCloud, Direct, $proxy_group
+🎬 YouTube = select, PureCloud, Direct, $proxy_group
+🎬 iQiyi = select, Direct, PureCloud, $proxy_group
+🎬 Bilibili = select, Direct, PureCloud, $proxy_group
+🎬 myTVSUPER = select, PureCloud, Direct, $proxy_group
+📺 Disney = select, PureCloud, Direct, $proxy_group
+📺 Netflix = select, PureCloud, Direct, $proxy_group
+📽 GlobalMedia = select, PureCloud, Direct, $proxy_group
+🌐 Google = select, PureCloud, Direct, $proxy_group
+🖥 Microsoft = select, PureCloud, Direct, $proxy_group
+📟 Twitter = select, PureCloud, Direct, $proxy_group
+📲 LineTV = select, PureCloud, Direct, $proxy_group
+🌐 Paypal = select, PureCloud, Direct, $proxy_group
+📲 Telegram = select, PureCloud, Direct, $proxy_group
+📡 Global = select, PureCloud, Direct, $proxy_group
+🧭 Final = select, PureCloud, Direct, $proxy_group
 
 [Rule]
 DOMAIN-SUFFIX,v.puretext.xyz,🎬 EMBY
