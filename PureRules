@@ -7,23 +7,27 @@ dns-server = 223.5.5.5, 1.0.0.1
 update-url = https://raw.githubusercontent.com/Pinkyou1/Rules/main/PureRules
 
 [Proxy Group]
-PlueCloud = select,PURECLOUD,interval=86400,timeout=5,select=0,url=http://www.gstatic.com/generate_204
-🍎Apple = select,DIRECT,interval=86400,timeout=5,select=0,url=http://www.gstatic.com/generate_204
-📺 International-Media = select,PLUECLOUD,interval=600,timeout=5,select=0,url=http://www.gstatic.com/generate_204
-📟 Twitter = select,PLUECLOUD,interval=600,timeout=5,select=0,url=http://www.gstatic.com/generate_204
-🖥 Learning = select,PLUECLOUD,interval=600,timeout=5,select=0,url=http://www.gstatic.com/generate_204
-🖥 Microsoft = select,PLUECLOUD,interval=600,timeout=5,select=0,url=http://www.gstatic.com/generate_204
-🌐 Google = select,PLUECLOUD,interval=600,timeout=5,select=0,url=http://www.gstatic.com/generate_204
-📺 Netflix = select,PLUECLOUD,interval=600,timeout=5,select=0,url=http://www.gstatic.com/generate_204
-📺 Disney = select,PLUECLOUD,interval=600,timeout=5,select=0,url=http://www.gstatic.com/generate_204
-🎵 Tiktok = select,PLUECLOUD,interval=600,timeout=5,select=0,url=http://www.gstatic.com/generate_204
-🎬 iQiyi = select,DIRECT,interval=600,timeout=5,select=0,url=http://www.gstatic.com/generate_204
-📲 LineTV = select,PLUECLOUD,interval=600,timeout=5,select=0,url=http://www.gstatic.com/generate_204
-🎬 myTVSUPER = select,PLUECLOUD,interval=600,timeout=5,select=0,url=http://www.gstatic.com/generate_204
-🎬 Bilibili = select,DIRECT,interval=600,timeout=5,select=0,url=http://www.gstatic.com/generate_204
-🎬 YouTube = select,PLUECLOUD,interval=600,timeout=5,select=0,url=http://www.gstatic.com/generate_204
-📲 Telegram = select,PLUECLOUD,interval=600,timeout=5,select=0,url=http://www.gstatic.com/generate_204
-🎬 Emby = select,PLUECLOUD,interval=600,timeout=5,select=0,url=http://www.gstatic.com/generate_204
+PureCloud = select, $app_name
+Domestic = select, Direct, PureCloud
+🍎 Apple = select, Direct, PureCloud, $app_name
+📺 Emby = select, PureCloud, Direct, $app_name
+🎵 Tiktok = select, Direct, PureCloud, $app_name
+🎵 YouTube Music= select, PureCloud, Direct, $app_name
+🎬 YouTube = select, PureCloud, Direct, $app_name
+🎬 iQiyi = select, Direct, PureCloud, $app_name
+🎬 Bilibili = select, Direct, PureCloud, $app_name
+🎬 myTVSUPER = select, PureCloud, Direct, $app_name
+📺 Disney = select, PureCloud, Direct, $app_name
+📺 Netflix = select, PureCloud, Direct, $app_name
+📽 GlobalMedia = select, PureCloud, Direct, $app_name
+🌐 Google = select, PureCloud, Direct, $app_name
+🖥 Microsoft = select, PureCloud, Direct, $app_name
+📟 Twitter = select, PureCloud, Direct, $app_name
+📲 LineTV = select, PureCloud, Direct, $app_name
+🌐 Paypal = select, PureCloud, Direct, $app_name
+📲 Telegram = select, PureCloud, Direct, $app_name
+📡 Global = select, PureCloud, Direct, $app_name
+🧭 Final = select, PureCloud, Direct, $app_name
 China-Media = select,DIRECT,Nexitally
 Hijacking = select,REJECT,DIRECT
 China-Websites = select,DIRECT,Nexitally
