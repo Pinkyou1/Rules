@@ -485,6 +485,12 @@ DOMAIN-SUFFIX,yimg.com,Proxy
 DOMAIN-SUFFIX,ying.com,Proxy
 DOMAIN-SUFFIX,yoyo.org,Proxy
 DOMAIN-SUFFIX,ytimg.com,Proxy
+DOMAIN-SUFFIX,canaray.discord.com,Proxy
+DOMAIN-SUFFIX,stockx.com,Proxy
+DOMAIN-SUFFIX,footlocker.com,Proxy
+DOMAIN-SUFFIX,paypal.com,Proxy
+DOMAIN-SUFFIX,okx.com,Proxy
+DOMAIN-SUFFIX,binance.com,Proxy
 
 # Telegram
 DOMAIN-SUFFIX,telegra.ph,Proxy
