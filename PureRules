@@ -1637,6 +1637,16 @@ DOMAIN-SUFFIX,wn.com,FINAL
 DOMAIN-SUFFIX,wolframalpha.com,FINAL
 DOMAIN-SUFFIX,x-art.com,FINAL
 DOMAIN-SUFFIX,yimg.com,FINAL
+DOMAIN-SUFFIX,monitor.puretext.xyz,Final
+DOMAIN-SUFFIX,account.purecloudserver.com,Final
+DOMAIN-SUFFIX,canaray.discord.com,Final
+DOMAIN-SUFFIX,stockx.com,Final
+DOMAIN-SUFFIX,footlocker.com,Final
+DOMAIN-SUFFIX,paypal.com,Final
+DOMAIN-SUFFIX,okx.com,Final
+DOMAIN-SUFFIX,binance.com,Final
+GEOIP,CN,CHINA-WEBSITES
+FINAL,FINAL
 GEOIP,CN,CHINA-WEBSITES
 FINAL,FINAL
 
