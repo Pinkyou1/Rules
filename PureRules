@@ -30,6 +30,55 @@ China-Websites = select,DIRECT,PureCloud
 Final = select,PureCloud,DIRECT
 
 [Rule]
+DOMAIN,content1.steampowered.com,DIRECT
+DOMAIN,content2.steampowered.com,DIRECT
+DOMAIN,content3.steampowered.com,DIRECT
+DOMAIN,content4.steampowered.com,DIRECT
+DOMAIN,content5.steampowered.com,DIRECT
+DOMAIN,content6.steampowered.com,DIRECT
+DOMAIN,content7.steampowered.com,DIRECT
+DOMAIN,content8.steampowered.com,DIRECT
+DOMAIN,client-download.steampowered.com,DIRECT
+DOMAIN,content-origin.steampowered.com,DIRECT
+DOMAIN,clientconfig.akamai.steamtransparent.com,DIRECT
+DOMAIN,steampipe.akamaized.net,DIRECT
+DOMAIN,steam.apac.qtlglb.com.mwcloudcdn.com,DIRECT
+DOMAIN,cdn1-sea1.valve.net,DIRECT
+DOMAIN,cdn2-sea1.valve.net,DIRECT
+DOMAIN,steam.apac.qtlglb.com,DIRECT
+DOMAIN,edge.steam-dns.top.comcast.net,DIRECT
+DOMAIN,edge.steam-dns-2.top.comcast.net,DIRECT
+DOMAIN,steam.naeu.qtlglb.com,DIRECT
+DOMAIN,steampipe-kr.akamaized.net,DIRECT
+DOMAIN,steam.ix.asn.au,DIRECT
+DOMAIN,steam.eca.qtlglb.com,DIRECT
+DOMAIN,steam.cdn.on.net,DIRECT
+DOMAIN,update5.dota2.wmsj.cn,DIRECT
+DOMAIN,update2.dota2.wmsj.cn,DIRECT
+DOMAIN,update6.dota2.wmsj.cn,DIRECT
+DOMAIN,update3.dota2.wmsj.cn,DIRECT
+DOMAIN,update1.dota2.wmsj.cn,DIRECT
+DOMAIN,update4.dota2.wmsj.cn,DIRECT
+DOMAIN,update5.csgo.wmsj.cn,DIRECT
+DOMAIN,update2.csgo.wmsj.cn,DIRECT
+DOMAIN,update4.csgo.wmsj.cn,DIRECT
+DOMAIN,update3.csgo.wmsj.cn,DIRECT
+DOMAIN,update6.csgo.wmsj.cn,DIRECT
+DOMAIN,update1.csgo.wmsj.cn,DIRECT
+DOMAIN,st.dl.bscstorage.net,DIRECT
+DOMAIN,cdn.mileweb.cs.steampowered.com.8686c.com,DIRECT
+DOMAIN,steamcdn-a.akamaihd.net,DIRECT
+DOMAIN-SUFFIX,content.steampowered.com,DIRECT
+DOMAIN-SUFFIX,hsar.steampowered.com.edgesuite.net,DIRECT
+DOMAIN-SUFFIX,akamai.steamstatic.com,DIRECT
+DOMAIN-SUFFIX,cs.steampowered.com,DIRECT
+DOMAIN-SUFFIX,cm.steampowered.com,DIRECT
+DOMAIN-SUFFIX,edgecast.steamstatic.com,DIRECT
+DOMAIN-SUFFIX,steamcontent.com,DIRECT
+DOMAIN-SUFFIX,steam-content-dnld-1.apac-1-cdn.cqloud.com,DIRECT
+DOMAIN-SUFFIX,steam-content-dnld-1.eu-c1-cdn.cqloud.com,DIRECT
+DOMAIN-SUFFIX,steam-content-dnld-1.qwilted-cds.cqloud.com,DIRECT
+DOMAIN-SUFFIX,emby.nexitally.com,🎬 EMBY
 DOMAIN-SUFFIX,ap.spotify.com,DIRECT
 DOMAIN-KEYWORD,epochtimes,REJECT
 DOMAIN-SUFFIX,881903.com,REJECT
@@ -106,7 +155,8 @@ IP-CIDR,91.108.20.0/22,📲 TELEGRAM
 IP-CIDR,91.108.56.0/22,📲 TELEGRAM
 IP-CIDR,149.154.160.0/20,📲 TELEGRAM
 DOMAIN-SUFFIX,flightpacific.net,FINAL
-DOMAIN-SUFFIX,v.puretext.xyz,FINAL
+DOMAIN-SUFFIX,nexitallysecure.com,FINAL
+DOMAIN-SUFFIX,nexitally.com,FINAL
 DOMAIN-SUFFIX,amysecure.com,FINAL
 DOMAIN-SUFFIX,amytele.com,FINAL
 DOMAIN-SUFFIX,acg.tv,🎬 BILIBILI
@@ -160,6 +210,8 @@ DOMAIN-SUFFIX,20thcenturystudios.com.br,📺 DISNEY
 DOMAIN-SUFFIX,20thcenturystudios.jp,📺 DISNEY
 DOMAIN-SUFFIX,abc-studios.com,📺 DISNEY
 DOMAIN-SUFFIX,abc.com,📺 DISNEY
+DOMAIN-SUFFIX,abcnews.com,📺 DISNEY
+DOMAIN-SUFFIX,abcnews.edgesuite.net,📺 DISNEY
 DOMAIN-SUFFIX,adobedtm.com,📺 DISNEY
 DOMAIN-SUFFIX,adventuresbydisney.com,📺 DISNEY
 DOMAIN-SUFFIX,babble.com,📺 DISNEY
@@ -1637,6 +1689,7 @@ DOMAIN-SUFFIX,wn.com,FINAL
 DOMAIN-SUFFIX,wolframalpha.com,FINAL
 DOMAIN-SUFFIX,x-art.com,FINAL
 DOMAIN-SUFFIX,yimg.com,FINAL
+DOMAIN-SUFFIX,v.puretext.xyz,Final
 DOMAIN-SUFFIX,monitor.puretext.xyz,Final
 DOMAIN-SUFFIX,account.purecloudserver.com,Final
 DOMAIN-SUFFIX,canaray.discord.com,Final
@@ -1645,8 +1698,6 @@ DOMAIN-SUFFIX,footlocker.com,Final
 DOMAIN-SUFFIX,paypal.com,Final
 DOMAIN-SUFFIX,okx.com,Final
 DOMAIN-SUFFIX,binance.com,Final
-GEOIP,CN,CHINA-WEBSITES
-FINAL,FINAL
 GEOIP,CN,CHINA-WEBSITES
 FINAL,FINAL
 
