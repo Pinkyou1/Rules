@@ -1699,6 +1699,7 @@ DOMAIN-SUFFIX,paypal.com,Final
 DOMAIN-SUFFIX,okx.com,Final
 DOMAIN-SUFFIX,binance.com,Final
 GEOIP,CN,CHINA-WEBSITES
+GEOIP,US,FINAL
 FINAL,FINAL
 
 [Host]
@@ -1714,4 +1715,4 @@ www.google.cn = 216.58.200.67
 ^https?://(www.)?google.cn https://www.google.com 302
 
 [MITM]
-hostname = *.tiktokv.com,*.byteoversea.com,*.tik-tokapi.com
+hostname = *.tiktokv.com,*.byteoversea.com,*.tik-tokapi.com,-*snssdk.com,-*amemv.com
