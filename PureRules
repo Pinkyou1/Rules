@@ -9,14 +9,14 @@ update-url =
 [Proxy]
 
 [Proxy Group]
-🇭🇰Hong Kong = url-test,url=http://www.gstatic.com/generate_204,interval=1800,tolerance=10,timeout=5,select=0,policy-regex-filter=香港|Hong Kong|HK
-🇯🇵Japan = url-test,url=http://www.gstatic.com/generate_204,interval=1800,tolerance=10,timeout=5,select=0,policy-regex-filter=日本|Japan|JP
-🇰🇷Korea = url-test,url=http://www.gstatic.com/generate_204,interval=1800,tolerance=10,timeout=5,select=0,policy-regex-filter=韩国|Korea|KR
-🇸🇬Singapore = url-test,url=http://www.gstatic.com/generate_204,interval=1800,tolerance=10,timeout=5,select=0,policy-regex-filter=(新加坡|Singapore|SG
-🇺🇸United States = url-test,url=http://www.gstatic.com/generate_204,interval=1800,tolerance=10,timeout=5,select=0,policy-regex-filter=美国|United States|US
-🇨🇳Taiwan = url-test,url=http://www.gstatic.com/generate_204,interval=1800,tolerance=10,timeout=5,select=0,policy-regex-filter=台湾|Taiwan|TW
-🇩🇪Germany= url-test,url=http://www.gstatic.com/generate_204,interval=1800,tolerance=10,timeout=5,select=0,policy-regex-filter=德国|Germany|DE
-🇬🇧United Kingdom = url-test,url=http://www.gstatic.com/generate_204,interval=1800,tolerance=10,timeout=5,select=0,policy-regex-filter=英国|United Kingdom|UK
+🇭🇰Hong Kong = url-test,url=http://www.gstatic.com/generate_204,interval=1800,tolerance=10,timeout=5,select=0,policy-regex-filter=(香港|Hong Kong|HK）
+🇯🇵Japan = url-test,url=http://www.gstatic.com/generate_204,interval=1800,tolerance=10,timeout=5,select=0,policy-regex-filter=(日本|Japan|JP）
+🇰🇷Korea = url-test,url=http://www.gstatic.com/generate_204,interval=1800,tolerance=10,timeout=5,select=0,policy-regex-filter=(韩国|Korea|KR）
+🇸🇬Singapore = url-test,url=http://www.gstatic.com/generate_204,interval=1800,tolerance=10,timeout=5,select=0,policy-regex-filter=(新加坡|Singapore|SG）
+🇺🇸United States = url-test,url=http://www.gstatic.com/generate_204,interval=1800,tolerance=10,timeout=5,select=0,policy-regex-filter=(美国|United States|US）
+🇨🇳Taiwan = url-test,url=http://www.gstatic.com/generate_204,interval=1800,tolerance=10,timeout=5,select=0,policy-regex-filter=(台湾|Taiwan|TW）
+🇩🇪Germany= url-test,url=http://www.gstatic.com/generate_204,interval=1800,tolerance=10,timeout=5,select=0,policy-regex-filter=(德国|Germany|DE）
+🇬🇧United Kingdom = url-test,url=http://www.gstatic.com/generate_204,interval=1800,tolerance=10,timeout=5,select=0,policy-regex-filter=(英国|United Kingdom|UK）
 
 [Rule]
 # 本地网络-直连
