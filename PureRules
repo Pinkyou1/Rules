@@ -10,7 +10,7 @@ update-url =
 
 [Proxy Group]
 PureCloud = select,
-🍎 Apple = select,DIRECT,PureCloud,
+🍎 Apple = select,DIRECT,PureCloud,🇭🇰 Hong Kong 01,
 🎬 Emby = select,PureCloud,DIRECT,
 📲 Telegram = select,PureCloud,DIRECT,
 🎬 YouTube = select,PureCloud,DIRECT,
